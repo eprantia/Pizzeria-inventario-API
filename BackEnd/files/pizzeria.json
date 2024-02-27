@@ -1,0 +1,60 @@
+{
+    "pizzerias": [
+        {
+            "storeName": "Pizzeria_Norte",
+            "delivery": true,
+            "toppings": [
+                {
+                    "id": 2,
+                    "name": "Atun",
+                    "stock": "8",
+                    "supplier": "pAt",
+                    "description": "dAt",
+                    "dateUpdate": "26-02-2024"
+                }
+            ]
+        },
+        {
+            "storeName": "Pizzeria_Sur",
+            "delivery": false,
+            "toppings": [
+                {
+                    "id": 1,
+                    "name": "Jamon",
+                    "stock": "3",
+                    "supplier": "pJ",
+                    "description": "dJ",
+                    "dateUpdate": "26-02-2024"
+                }
+            ]
+        },
+        {
+            "storeName": "Pizzeria_Este",
+            "delivery": true,
+            "toppings": [
+                {
+                    "id": 1,
+                    "name": "Chorizo",
+                    "stock": 7,
+                    "supplier": "pCh",
+                    "description": "dC",
+                    "dateUpdate": "26-02-2024"
+                }
+            ]
+        },
+        {
+            "storeName": "Pizzeria_Oeste",
+            "delivery": false,
+            "toppings": [
+                {
+                    "id": 1,
+                    "name": "Peperoni",
+                    "stock": "5",
+                    "supplier": "pPe",
+                    "description": "dPe",
+                    "dateUpdate": "26-02-2024"
+                }
+            ]
+        }
+    ]
+}

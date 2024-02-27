@@ -1,0 +1,226 @@
+header{
+    background-color: #BBBBBB;
+    padding: 5px 0px;
+}
+
+.imgStore{
+    /* background-color: red; */
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.imgStore img{
+    height: 60px;
+}
+
+
+main{
+    min-height: 535px;
+    width: 100%;
+    /* margin: 0 10%; */
+    background: linear-gradient(#BBBBBB,#343333 30% 72%,#BBBBBB);
+
+}
+
+.principal{
+    width: 80%;
+    margin: 0 10%;
+}
+
+form{
+    /* border: 1px solid green; */
+    padding: 10px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+form div{
+    /* border: 1px solid orange; */
+    margin: 20px 12px;
+    font-weight: bold;
+} 
+
+
+.stores{ 
+    padding: 10px 0;
+    /* font-weight: bold; */
+}
+
+.pizzerias{
+    font-size: 20px;
+    text-align: left;
+    border-radius: 13px;
+}
+
+.delivery{
+    padding: 10px 0;
+    font-size: 20px;
+} 
+
+.delivery input{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+.btnNew{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1047fac1;
+    width: 125px;
+    height: 100%;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.btnNew:hover{
+    background-color: #081d60;
+    transform: scale(1.2);
+}
+
+
+.popup{
+    /* display: block; */
+    margin: 10px 0;
+    padding: 0 115px;
+    /* background-color: gray; */
+    border-radius: 15px;
+    color: white
+}
+
+.popup form{
+    display: block;
+}
+
+.inputTxt{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 1px 25px;
+    width: 90%;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 13px;
+}
+
+.toppings{
+    display: block;
+    margin: 0 0 20px 0;
+    width: 250px;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 13px;
+}
+
+.inputNumber{
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 5px 55px;
+    width: 10%;
+    font-size: 21px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.inputNumber::-webkit-inner-spin-button
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btnCreate{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1aa13ec1;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    transition: 0.5s all;
+    cursor: pointer;
+    margin: 0 0 0 40%;
+}
+
+.btnCreate:hover{
+    background-color: #1aa13ec1;
+    transform: scale(1.2);
+}
+
+.inventary{
+    /* border: 1px solid green; */
+    display: flex;
+    /* padding: 0 10%; */
+}
+
+.tableInventory{
+    width: 100%;
+    /* border: 1px solid orange; */
+}
+
+th,td{
+    text-align: center;
+}
+
+th{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+td{
+    background-color: none;
+    color: white;
+    font-size: 15px;
+}
+
+td input{
+    font-size: 12px;
+}
+
+.btnEdit{
+    background-color: #f1b647;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+.btnEdit:hover{
+    background-color: #96702a;
+    color: white;
+    transform: scale(1.2);
+}
+
+.btnDelete{
+    background-color: #e2372a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+}
+.btnDelete:hover{
+    background-color: #621a14;
+    color: black;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    background: url("imagenes/bg.jpg");
+    padding: 10px;
+    color: white;
+}
+
+footer img{
+    height: 80px;
+}
